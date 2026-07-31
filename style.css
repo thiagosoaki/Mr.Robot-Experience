@@ -1,5 +1,8 @@
 body{
-    background-color: black;
+    min-height: 110vh;
+    background: linear-gradient(to top, black, rgb(93, 1, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .logo1{
@@ -7,8 +10,8 @@ body{
 }
 
 header{
+    background: linear-gradient(to top, black, rgb(93, 1, 1));
     padding: 25px;
-    background-color: black;
     color: red;
     border-radius: 10px;
     border-color: red;
@@ -64,6 +67,10 @@ strong{
     font-weight: bold;
     color: red;
     font-family: "poppins", sans-serif;
+}
+
+.borda{
+    text-shadow: 0 0 25px black;
 }
 
 .p1{
@@ -202,4 +209,104 @@ footer:hover{
         padding: 10px;
     }
 
+}
+
+.amazon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.amazon-p{
+    transition: 0.7s;
+    align-self: center;
+    margin-left: 15px;
+    margin-top: 25px;
+    color: rgb(135, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "poppins", sans-serif;
+}
+
+.amimg:hover{
+    transform: scale(1.07);
+    transition: 0.7s;
+}
+
+.amimg{
+    border: double 10px rgb(204, 0, 0);
+    transition: 0.7s;
+    margin-top: 25px;
+    border-radius: 70px;
+    max-height: 50%;
+    width: 200px;
+}
+
+.linkam:hover{
+    font-size: 25px;
+    transition: 0.7;
+}
+
+.linkam{
+    transition: 0.7s;
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 10px rgb(93, 1, 1);
+    color: rgb(135, 0, 0);
+}
+
+.apple{
+    display: flex;
+    justify-content: space-between;
+}
+
+.appimg:hover{
+    transform: scale(1.07);
+    transition: 0.7s;
+}
+
+.appimg{
+    border: double 10px rgb(204, 0, 0);
+    transition: 0.7s;
+    align-self: left;
+    border-radius: 40px;
+    background: black;
+    width: 200px;
+    max-height: 50%;
+    position: relative;
+    top: 50px;
+}
+
+.linkapp:hover{
+    font-size: 25px;
+    transition: 0.7s;
+}
+
+.apptex{
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(135, 0, 0);
+    position: relative;
+    left: 2%;
+    top: 50px;
+}
+
+.linkapp{
+    transition: 0.7s;
+    align-items: center;
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 10px rgb(93, 1, 1);
+    color: rgb(135, 0, 0);
+    position: relative;
+    right: 90%;
+    top: 250px;
+}
+
+.apptex, .amazon-p{
+    text-shadow: 0 0 5px rgb(145, 0, 0);
 }
